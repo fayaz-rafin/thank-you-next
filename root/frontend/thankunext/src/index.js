@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Title from './title';
 import Playlist from './Playlist';
+import Search from './Searchbox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <App />
     <Title />
     <Playlist />
+    <Search />
   </React.StrictMode>
 );
 
