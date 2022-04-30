@@ -1,10 +1,13 @@
 import React from "react";
+import Typography from '@mui/material/Typography';
+
 
 function Title () {
   return (
-      <div className="Title">
-        <h1>Thank U, Next</h1>
-        </div>
+    <div className="Title" >
+      <Typography variant="h1" align="center"> Thank U Next </Typography>        
+      </div>
+       
     );
 }
 
