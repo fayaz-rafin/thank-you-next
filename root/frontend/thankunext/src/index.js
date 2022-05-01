@@ -9,8 +9,8 @@ import Search from './Searchbox';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
     <Title />
+    <App />
     <Playlist />
     <Search />
   </React.StrictMode>

@@ -5,10 +5,10 @@ import { Grid, TextField } from "@mui/material";
 function Search() {
     return(
         <>
-        <TextField id="outlined-basic" label="Outlined" variant="outlined" 
-        style={{margin: "2rem 2rem", display: "inline"}}/>
+        <TextField id="outlined-basic" label="search" variant="outlined" 
+                style={{ margin: "2rem 2rem", display: "inline", fontFamily: "Circular,Helvetica,Arial,sans-serif"}}/>
             <>
-            <div style={{margin: "2rem 2rem", display: "inline"}}>                
+                <div style={{ margin: "2rem 2rem", display: "inline", fontFamily:"Circular,Helvetica,Arial,sans-serif"}}>                
                 <Button 
                 variant="contained" 
                 color="success"
