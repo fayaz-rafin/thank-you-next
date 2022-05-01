@@ -4,7 +4,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');  
 
   const theme = React.useMemo(
     () =>
@@ -17,9 +17,13 @@ function App() {
   );
 
   return (
+    
     <ThemeProvider theme={theme}>
       <CssBaseline />
     </ThemeProvider>
+    
   );
+  
+  
 }
 export default App;
